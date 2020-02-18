@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4C1D3323F7C62800B64E90 /* AddThoughtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4C1D3223F7C62800B64E90 /* AddThoughtView.swift */; };
+		3BC4456323F95179002D2E96 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4456223F95179002D2E96 /* Constants.swift */; };
+		3BC4456523F95666002D2E96 /* ThoughtTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4456423F95666002D2E96 /* ThoughtTableViewCell.swift */; };
+		3BC4456723FBBA4F002D2E96 /* Thought.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4456623FBBA4F002D2E96 /* Thought.swift */; };
 		3BD5F1D323F7A6B30039128B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5F1D223F7A6B30039128B /* AppDelegate.swift */; };
 		3BD5F1D523F7A6B30039128B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5F1D423F7A6B30039128B /* SceneDelegate.swift */; };
-		3BD5F1D723F7A6B30039128B /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5F1D623F7A6B30039128B /* MainVC.swift */; };
+		3BD5F1D723F7A6B30039128B /* MainViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5F1D623F7A6B30039128B /* MainViewConroller.swift */; };
 		3BD5F1DA23F7A6B30039128B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5F1D823F7A6B30039128B /* Main.storyboard */; };
 		3BD5F1DC23F7A6B30039128B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5F1DB23F7A6B30039128B /* Assets.xcassets */; };
 		3BD5F1DF23F7A6B30039128B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5F1DD23F7A6B30039128B /* LaunchScreen.storyboard */; };
 		3BD5F1E723F7A7BD0039128B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BD5F1E623F7A7BD0039128B /* GoogleService-Info.plist */; };
-		3BD5F1E923F7B32E0039128B /* AddThoughtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5F1E823F7B32E0039128B /* AddThoughtVC.swift */; };
+		3BD5F1E923F7B32E0039128B /* AddThoughtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD5F1E823F7B32E0039128B /* AddThoughtViewController.swift */; };
 		DC6C5E0A50D12FF231A755E4 /* Pods_ToDoList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395E24B92078B49F16BDB098 /* Pods_ToDoList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		395E24B92078B49F16BDB098 /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4C1D3223F7C62800B64E90 /* AddThoughtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtView.swift; sourceTree = "<group>"; };
+		3BC4456223F95179002D2E96 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3BC4456423F95666002D2E96 /* ThoughtTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtTableViewCell.swift; sourceTree = "<group>"; };
+		3BC4456623FBBA4F002D2E96 /* Thought.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thought.swift; sourceTree = "<group>"; };
 		3BD5F1CF23F7A6B30039128B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BD5F1D223F7A6B30039128B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BD5F1D423F7A6B30039128B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BD5F1D623F7A6B30039128B /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3BD5F1D623F7A6B30039128B /* MainViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewConroller.swift; sourceTree = "<group>"; };
 		3BD5F1D923F7A6B30039128B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BD5F1DB23F7A6B30039128B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BD5F1DE23F7A6B30039128B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BD5F1E023F7A6B30039128B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BD5F1E623F7A7BD0039128B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3BD5F1E823F7B32E0039128B /* AddThoughtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtVC.swift; sourceTree = "<group>"; };
+		3BD5F1E823F7B32E0039128B /* AddThoughtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddThoughtViewController.swift; sourceTree = "<group>"; };
 		98F8D43EFA29ADB4A3ABAC53 /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
 		CA8BB3A4781F74EFFCAE3007 /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BC4456123F9515E002D2E96 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4456223F95179002D2E96 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		3BD5F1C623F7A6B20039128B = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +93,7 @@
 				3BD5F1DD23F7A6B30039128B /* LaunchScreen.storyboard */,
 				3BD5F1E023F7A6B30039128B /* Info.plist */,
 				3BD5F1E623F7A7BD0039128B /* GoogleService-Info.plist */,
+				3BC4456123F9515E002D2E96 /* Utilities */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -84,8 +101,8 @@
 		3BD5F1EA23F7B3700039128B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				3BD5F1D623F7A6B30039128B /* MainVC.swift */,
-				3BD5F1E823F7B32E0039128B /* AddThoughtVC.swift */,
+				3BD5F1D623F7A6B30039128B /* MainViewConroller.swift */,
+				3BD5F1E823F7B32E0039128B /* AddThoughtViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -93,6 +110,8 @@
 		3BD5F1EB23F7B37A0039128B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3B4C1D3223F7C62800B64E90 /* AddThoughtView.swift */,
+				3BC4456423F95666002D2E96 /* ThoughtTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -100,6 +119,7 @@
 		3BD5F1EC23F7B3800039128B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3BC4456623FBBA4F002D2E96 /* Thought.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,10 +257,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BD5F1D723F7A6B30039128B /* MainVC.swift in Sources */,
+				3BC4456523F95666002D2E96 /* ThoughtTableViewCell.swift in Sources */,
+				3BD5F1D723F7A6B30039128B /* MainViewConroller.swift in Sources */,
 				3BD5F1D323F7A6B30039128B /* AppDelegate.swift in Sources */,
-				3BD5F1E923F7B32E0039128B /* AddThoughtVC.swift in Sources */,
+				3BC4456723FBBA4F002D2E96 /* Thought.swift in Sources */,
+				3BD5F1E923F7B32E0039128B /* AddThoughtViewController.swift in Sources */,
+				3B4C1D3323F7C62800B64E90 /* AddThoughtView.swift in Sources */,
 				3BD5F1D523F7A6B30039128B /* SceneDelegate.swift in Sources */,
+				3BC4456323F95179002D2E96 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
